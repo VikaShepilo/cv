@@ -1,22 +1,31 @@
-## *SHEPILO VIKTORIA*
+# *SHEPILO VIKTORIA*
 
-#### Age: 24 years old
-##### Minsk
 
-**EDUCATION**
-#### BELARUSIAN STATE PEDAGOGICAL ####UNIVERSITY NAMED AFTER MAXIM TANK (BSPU)
-##### September, 2018 — June, 2021
-#### FACULTY PHYSICS AND MATHEMATICS, physics and informatics
+### **CONTACTS**
+__Tel:__ + 375 29 169-13-06
+__E-mai:__ [shepilo.1997@mail.ru](shepilo.1997@mail.ru)
 
-**LANGUAGES**
-#### Russsian: C1 – Advanced
-#### English: A2 – Elementary
 
-**CONTACTS**
-#### Tel: + 375 29 169-13-06
-#### E-mai: [shepilo.1997@mail.ru](shepilo.1997@mail.ru)
+### **EDUCATION**
+__BELARUSIAN STATE PEDAGOGICAL UNIVERSITY NAMED AFTER MAXIM TANK (BSPU)__
+September, 2018 — June, 2021
+FACULTY PHYSICS AND MATHEMATICS, physics and informatics
 
-**SKILLS**
+### **COURSES**
+IT SHATLE
+Advanced Certificate with honors from the HTML/CSS 
+May – June, 2021
+
+IT SHATLE
+FrontEnd (JavaScript + React)
+June – October , 2021
+
+### **LANGUAGES**
+Russsian: C1 – Advanced
+English: A2 – Elementary
+
+
+### **SKILLS**
 *	HTML5
 *	CSS3
 *	SCSS(SASS)
@@ -32,15 +41,16 @@
 *	React
 
 
-**PERSONAL QUALITIES**
+### **PERSONAL QUALITIES**
 *	creative
 *	energetic
 *	highly motivated
 *	stress-resistant
 *	attentive	
 
-**Code example**
-``` multiplicationTable = function(size) {
+### **Code example**
+``` 
+multiplicationTable = function(size) {
   var result = []
 
   for (var i = 0; i < size; i++) {
@@ -51,4 +61,5 @@
   }
   
   return result
-} ```
+} 
+```
