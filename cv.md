@@ -7,6 +7,10 @@
 
 ___
 
+### **ABOUT ME**
+I am 24 years old. I am reliable. I really need in activities where I can develop during my life. I want to get knowledge and skills that will be enough for employment in a company.
+
+___
 
 ### **EDUCATION**
 __BELARUSIAN STATE PEDAGOGICAL UNIVERSITY NAMED AFTER MAXIM TANK (BSPU)__
@@ -34,19 +38,18 @@ ___
 ___
 
 
-### | **SKILLS** |
-| ----- |
-| HTML5 |
-| CSS3 |
-| SCSS(SASS) |
-| Git |
-| JSON |
-| Figma (Photoshop) |
-| gulp |
-| Bootstrap |
-| JavaScript |
-|	Webpack |
-|	React |
+ **SKILLS** 
+* HTML5 
+* CSS3 
+* SCSS(SASS) 
+* Git 
+* JSON 
+* Figma (Photoshop) 
+* gulp 
+* Bootstrap 
+* JavaScript 
+*	Webpack 
+*	React 
 
 ___
 
