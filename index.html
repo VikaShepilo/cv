@@ -54,24 +54,89 @@
                         <li>React</li>
                     </ul>
                 </section>
-            </div>
-            <div class="sector-right">
                 <section class="qualities">
-                    <h3>PERSONAL QUALITIES</h3>
-                    <hr class="line">
-                    <ul class="section-right-list">
+                    <h3 class="sector-left-text">MY QUALITIES</h3>
+                    <ul class="section-left-list">
                         <li>creative</li>
                         <li>energetic</li>
                         <li>highly motivated</li>
                         <li>stress-resistant</li>
                         <li>attentive</li>
                     </ul>
+                </section>
+            </div>
+            <div class="sector-right">
+                <section class="about">
+                    <h3>ABOUT ME</h3>
+                    <hr class="line">
+                    I am 24 years old. I am reliable. I really need in activities where I can develop during my life. 
+                    I want to get knowledge and skills that will be enough for employment in a company.
+                </section>
+                <section class="education">
+                    <h3>EDUCATION</h3>
+                    <hr class="line">
+                    <h5>BELARUSIAN STATE PEDAGOGICAL UNIVERSITY NAMED AFTER MAXIM TANK (BSPU)</h5>
+                    <ul class="section-right-list-education">   
+                        <li>FACULTY PHYSICS AND MATHEMATICS</li>
+                        <li>September, 2018 — June, 2021</li> 
+                        <li>physics and informatics</li>
+                    </ul>
+                </section>
+                <section class="courses">
+                    <h3>COURSES</h3>
+                    <hr class="line">
+                    <ul class="section-right-list">
+                        <li>IT SHATLE</li>
+                            <ul class="section-right-list-education">
+                                <li>Advanced certificate with honors from the HTML/CSS</li>
+                                <li>May – June, 2021</li>
+                            </ul>
+                        <li>IT SHATLE</li>
+                            <ul class="section-right-list-education">
+                                <li>FrontEnd (JavaScript + React)</li>
+                                <li>June – October, 2021</li>
+                    </ul>
+                </section>
+                <section class="code">
+                    <h3>CODE EXAMPLE</h3>
+                    <hr class="line">
+                    <xmp>
+    multiplicationTable = function(size) {
+        let result = []
+        for (let i = 0; i < size; i++) {
+            result[i] = []
+            for (let j = 0; j < size; j++) {
+                result[i][j] = (i + 1) * (j + 1)
+            }
+        }
+        return result
+    }
+                    </xmp>
                 </section>	
             </div>
         </main>
 
         <footer class="footer">
-            <a href="https://rs.school/"><img src="img/rs_school.svg" alt="rs_school"></a>
+            <div class="footer-rs">
+                <a href="https://rs.school/">
+                    <img src="img/rs_school_js.svg" alt="rs_school">
+                </a>
+            </div>
+            <div class="footer-date">
+                © 2021
+            </div>
+            <div class="footer-social-networks">
+                <div class="footer-block-social-networks">
+                    <a href="https://github.com/VikaShepilo" >
+                        <img src="img/github.svg" alt="github" class="social-networks">
+                    </a>
+                </div>
+                <div class="footer-block-social-networks">
+                    <a href="https://www.linkedin.com/in/viktoria-schepilo-549a98213/">
+                        <img src="img/linkedin.png" alt="rslinkedin" class="social-networks">
+                    </a>
+                </div>
+            </div>
         </footer>
 
     </div>
