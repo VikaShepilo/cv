@@ -1,44 +1,110 @@
+:root {
+    --first-color: rgb(235, 235, 235);
+    --second-color: rgb(255, 255, 255);
+    --third-color: rgb(84, 138, 183);
+    --text-color: rgba(4, 6, 8, 0.747);
+}
+html {
+    scroll-behavior: smooth;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    line-height: 1.5;
+}
 body {
-    background-color:rgb(235, 235, 235);
+    background-color: var(--first-color);
 }
 .container {
     width: 60%;
-    background-color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
+    background-image: url('./img/fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header {
     display: flex;
 }
 .header-photo {
+    margin: 3rem;
+    border-radius: 50%;
+    border: 8px solid var(--third-color);
+    box-shadow: 0 0 15px var(--first-color);
     width: 250px;
     height: 250px;
 }
+.header-name {
+    margin: 6rem 0 0 0;
+}
 .main {
-
+    display: flex;
 }
 .sector-left {
-    
+
 }
+
 .languages {
-
+    margin: 3rem;
 }
-.contacts {
 
+.contacts {
+    margin: 3rem;
 }
 .contacts-tel {
-
+    display: flex;
+    align-items: center;
 }
 .contacts-img-tel {
+    margin: 5px;
     width: 20px;
     height: 20px;
 }
 .contacts-email {
-
+    display: flex;
+    align-items:center;
 }
 .contacts-img-email {
+    margin: 5px;
     width: 20px;
     height: 20px;
+}
+.scills {
+    margin: 3rem;
+}
+.sector-left-text {
+    color: var(--third-color);
+}
+.section-left-list > li {
+    list-style-type: none;
+}
+.section-left-list > li:before {
+    color: var(--third-color);
+    content: "☑"; 
+    padding-right: 10px; 
+}
+
+.sector-right {
+    margin: 3rem 0 0 7rem;
+}
+.line {
+    border: none;
+    height: 2px;
+    background-color: var(--third-color);
+    width: 500px;
+}
+.qualities {
+
+}
+.section-right-list > li {
+    list-style-type: none;
+}
+.section-right-list > li:before {
+    color: var(--third-color);
+    content: "⁃"; 
+    padding-right: 10px; 
 }
 .footer {
 
