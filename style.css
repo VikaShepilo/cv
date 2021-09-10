@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(235, 235, 235);
+}
+.container {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    display: flex;
+}
+.header-photo {
+    width: 250px;
+    height: 250px;
+}
+.main {
+
+}
+.sector-left {
+    
+}
+.languages {
+
+}
+.contacts {
+
+}
+.contacts-tel {
+
+}
+.contacts-img-tel {
+    width: 20px;
+    height: 20px;
+}
+.contacts-email {
+
+}
+.contacts-img-email {
+    width: 20px;
+    height: 20px;
+}
+.footer {
+
+}
